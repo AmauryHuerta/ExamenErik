@@ -11,6 +11,7 @@ spring:
       connection-timeout: ${DB_CONNECTION_TIMEOUT_MS:30000}
   jpa:
     open-in-view: false
+    database-platform: com.sistemam01m02.config.TidbDialect
     hibernate:
       # El repositorio sí incluye migraciones Flyway V1–V5; se validan en arranque.
       ddl-auto: validate
