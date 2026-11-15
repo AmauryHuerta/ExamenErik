@@ -31,11 +31,7 @@ services:
       - key: APP_COOKIE_SAME_SITE
         value: None
       - key: APP_BOOTSTRAP_ENABLED
-        value: "true"
-      - key: APP_BOOTSTRAP_EMAIL
-        sync: false
-      - key: APP_BOOTSTRAP_PASSWORD
-        sync: false
+        value: "false"
 
   - type: web
     name: examenerik-frontend
